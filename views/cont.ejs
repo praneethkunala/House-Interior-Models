@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/pointer.css" type="text/css" media="screen">
+</head>
+<body id="page5">
+    <header>
+        <div class="row-1">
+            <div class="navbar">
+                <a href="http://localhost:3000/Home">Home</a>
+                <a href="http://localhost:3000/about">About</a>
+                <div class="subnav">
+                    <button class="subnavbtn">Rooms <i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content">
+                        <a href="http://localhost:3000/livingroom">Living Room</a>
+                        <a href="http://localhost:3000/kitchen">Kitchen</a>
+                        <a href="http://localhost:3000/bedroom">Bedroom</a>
+                        <a href="http://localhost:3000/office">Studyroom</a>
+                    </div>
+                </div>
+                <a href="http://localhost:3000/contact">Contact</a>
+                <a href="http://localhost:3000/logout">Logout</a>
+            </div>
+        </div>
+        <div class="row-2">
+            <div class="main">
+                <div class="container_12">
+                    <div class="grid_9">
+                        <div class="logo">
+                            <h1>
+                                <pre>      Submitted Details</pre>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <marquee behavior="scroll" direction="left"><b>NOTE- </b>In light of the current pandemic situation, we have
+        temporarily halted
+        offline appointments but are now only accepting appointments through the<b> ONLINE </b>mode .</marquee>
+    <div id="content">
+        <div class="bg-top">
+            <div class="bg-top-2">
+                <div class="bg">
+                    <div class="bg-top-shadow">
+                        <div class="main">
+                            <div class="box">
+                                <div class="padding">
+                                    <div class="container_12">
+                                        <div class="wrapper">
+                                            <div class="grid_12">
+                                                <div class="indent-left">
+                                                    <span><b>Dear <%= n %>,The Details you have submitted in the Appointment Form are given below . We will reach you ASAP. </b></span><br><br>
+                                                    <span>=><b> Name :</b><%= n %></span><br>
+                                                    <span>=><b> Email :</b><%= em %></span><br>
+                                                    <span>=><b> Phone :</b><%= p %></span><br>
+                                                    <span>=><b> Date :</b><%= d %></span><br>
+                                                    <span>=><b> Time : </b><%= t %></span><br>
+                                                    <span>=><b> Message :</b><%= m %></span><br><br>
+                                                    <a href="/home">Home</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./pointer.js"></script>
+    <script>
+        init_pointer({
+            
+        })
+    </script>
+</body>
+</html>

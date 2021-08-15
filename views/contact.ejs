@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/pointer.css" type="text/css" media="screen">
+</head>
+
+<body id="page5">
+    <header>
+        <div class="row-1">
+            <div class="navbar">
+                <a href="http://localhost:3000/Home">Home</a>
+                <a href="http://localhost:3000/about">About</a>
+                <div class="subnav">
+                    <button class="subnavbtn">Rooms <i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content">
+                        <a href="http://localhost:3000/livingroom">Living Room</a>
+                        <a href="http://localhost:3000/kitchen">Kitchen</a>
+                        <a href="http://localhost:3000/bedroom">Bedroom</a>
+                        <a href="http://localhost:3000/office">Studyroom</a>
+                    </div>
+                </div>
+                <a href="http://localhost:3000/contact">Contact</a>
+                <a href="http://localhost:3000/logout">Logout</a>
+            </div>
+        </div>
+        </div>
+        <div class="row-2">
+            <div class="main">
+                <div class="container_12">
+                    <div class="grid_9">
+                        <div class="logo">
+                            <h1>
+                                <pre>    Schedule An Appointment</pre>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <marquee behavior="scroll" direction="left"><b>NOTE- </b>In light of the current pandemic situation, we have
+        temporarily halted
+        offline appointments but are now only accepting appointments through the<b> ONLINE </b>mode .</marquee>
+    <div id="content">
+        <div class="bg-top">
+            <div class="bg-top-2">
+                <div class="bg">
+                    <div class="bg-top-shadow">
+                        <div class="main">
+                            <div class="box">
+                                <div class="padding">
+                                    <div class="container_12">
+                                        <div class="wrapper">
+                                            <div class="grid_12">
+                                                <div class="indent-left">
+                                                    <form id="contact-form" method="POST" action="/contact">
+                                                        <fieldset>
+                                                            <label><span class="text-form">Name:</span><input
+                                                                    name="name" type="text" required/></label>
+                                                            <label><span class="text-form">Email ID:</span><input
+                                                                    name="email" type="email" required/></label>
+                                                            <label><span class="text-form">Phone:</span><input
+                                                                    name="phone" type="text" required/></label>
+                                                            <label><span class="text-form">Date:</span><input
+                                                                    name="date" type="date" required/></label>
+                                                            <label><span class="text-form">Time:</span><input
+                                                                    name="time" type="time" required/></label>
+                                                            <div class="wrapper">
+                                                                <div class="text-form">Message:</div><textarea
+                                                                    name="message" required></textarea>
+                                                                <div class="buttons">
+                                                                    <a class="button" href="#"
+                                                                        onClick="document.getElementById('contact-form').reset()">Clear</a>
+                                                                    <a class="button" href="#"
+                                                                        onClick="document.getElementById('contact-form').submit()">Send</a>
+                                                                </div>
+                                                        </fieldset>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row-2">
+        <div class="main">
+            <div class="container_12">
+                <h1 style="text-align:center;">
+                    <a class="logo">Office Address </a>
+                </h1>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column4">
+            <img src="vitlogo.jpg" alt="Avatar" width="700" height="250">
+        </div>
+        <div class="column4">
+            <img src="vitaddress.jpg" alt="Avatar" width="500" height="250">
+        </div>
+    </div>
+    <script src="./pointer.js"></script>
+    <script>
+        init_pointer({
+            
+        })
+    </script>
+</body>
+
+</html>

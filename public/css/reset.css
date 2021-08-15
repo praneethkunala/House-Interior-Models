@@ -1,0 +1,36 @@
+a, abbr, acronym, address,article, aside,
+b, big, body,
+center, canvas, caption,code, command,
+datalist,del, details,div, 
+em, embed,
+fieldset, figcaption, figure, font, footer, form, 
+h1, h2, h3, h4, h5, h6, header,html,
+i,img,
+label, legend, 
+meter,
+object,output,
+p,pre, progress,
+section, small, span, source, strike, strong, sub, sup,
+table,th,tr,
+u,
+var{
+    background: transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+		padding: 0;
+		border: 0;
+		outline: 0;
+    vertical-align: top; 
+}
+table, table td { 
+	padding:0;
+	border:none;
+	border-collapse:collapse;
+}
+img {
+	vertical-align:top; 
+}
+embed { 
+	vertical-align:top;
+}

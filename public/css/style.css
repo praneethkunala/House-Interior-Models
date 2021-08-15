@@ -1,0 +1,415 @@
+/* Getting the new tags to behave */
+article, aside,canvas, command, datalist, details, embed, figcaption, figure,header,meter,output, progress, section, source{display:block}
+mark,summary, time {display:inline}
+/* Global properties ======================================================== */
+html 
+{
+	width:100%
+}
+body 
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:100%;color:#262626;
+	min-width:980px;
+	background:rgb(247, 241, 241)
+}
+.ic, .ic a 
+{
+	border:0;
+	float:right;
+	background:#fff;
+	color:#f00;
+	width:50%;
+	line-height:10px;
+	font-size:10px;
+	margin:-220% 0 0 0;
+	overflow:hidden;
+	padding:0
+}
+.bg-top-shadow 
+{
+	width:100%;
+	background:url(../images/bg-top-shadow.png) center bottom repeat-x;
+	padding:40px 0 52px
+}
+
+	#page3 .bg-top-shadow 
+	{
+		padding:40px 0 35px
+	}
+	#page4 .bg-top-shadow 
+	{
+		padding:40px 0 60px
+	}
+	
+	#page5 .bg-top-shadow 
+	{
+		padding:40px 0 62px
+	}
+.bg-top 
+{
+	width:100%;
+	background:url(../images/bg-top-tail.jpg) center top repeat-x
+}
+.bg-top-2 
+{
+	width:100%; 
+	background:url(../images/bg-top-tail2.jpg) center top repeat-y
+}
+.bg 
+{
+    width:100%;
+    background:url(../images/bg-top.jpg) center top no-repeat
+}
+.bg-bot 
+{
+    width:100%;
+    background:url(../images/bg-bot-tail.gif) center top repeat-x #fff;
+    padding:30px 0 55px
+}
+.bg-bot-1
+{
+	width: 100%;
+	background:url(../images/background.jpg);
+	background-repeat:repeat;
+	background-size: 250px 250px;
+	padding:30px 0 55px
+}
+.bg-bot-2
+{
+	width: 100%;
+	background:url(../images/kitchenbg.jpg);
+	background-repeat:repeat;
+	background-size: 300px 300px;
+	padding:30px 0 55px
+}
+.bg-bot-3
+{
+	width: 100%;
+	background:url(../images/bedroombg.jpg);
+	background-repeat:repeat;
+	background-size: 300px 350px;
+	padding:30px 0 55px
+}
+.bg-bot-4
+{
+	width: 100%;
+	background:url(../images/officebg.jpg);
+	background-repeat:repeat;
+	background-size: 300px 300px;
+	padding:30px 0 55px
+}
+
+
+	#page3 .bg-bot, #page4 .bg-bot 
+	{
+		padding:30px 0 49px
+	}
+.main 
+{
+	width:980px;
+	padding:0;
+	margin:0 auto;
+	font-size:1em;
+	line-height:1.6153em
+}
+a 
+{
+	color:#ff9601;
+	outline:none
+}
+a:hover 
+{
+	text-decoration:none
+}
+.col-1, .col-2 
+{
+	float:left
+}
+.wrapper 
+{
+	width:100%;
+	overflow:hidden;
+	position:relative
+}
+.extra-wrap 
+{
+	overflow:hidden
+}
+p 
+{
+	margin-bottom:18px
+}
+.p0 
+{
+	margin-bottom:0px
+}
+.p1 
+{
+	margin-bottom:8px
+}
+.p2 
+{
+	margin-bottom:15px
+}
+.p3 
+{
+	margin-bottom:30px;
+}
+.p4 
+{
+	margin-bottom:40px
+}
+.p5 
+{
+	margin-bottom:50px
+}
+.reg 
+{
+	text-transform:uppercase
+}
+.fleft {float:left}
+.fright {float:right}
+.alignright {text-align:right}
+.aligncenter {text-align:center}
+.it {font-style:italic}
+.letter {letter-spacing:-1px}
+.frame {padding:10px;background:#fff;box-shadow: 3px 5px 8px rgba(0,0,0,0.70);-moz-box-shadow: 3px 5px 8px rgba(0,0,0,0.70);-webkit-box-shadow: 3px 5px 8px rgba(0,0,0,0.70)}
+.frame2 {padding:5px;background:#fff;border:1px solid #e5e5e5}
+/*****boxes****/
+.margin-bot {margin-bottom:35px}
+.spacing {margin-right:35px}
+.indent-top {padding-top:13px}
+.indent-top2 {padding-top:4px}
+.indent-right {padding-right:30px}
+.indent-right2 {padding-right:10px}
+.indent-left {padding-left:30px}
+.indent {padding:0 10px 0 30px}
+.indent2 {padding-left:50px}
+.indent3 {padding:0 15px}
+.indent-bot {margin-bottom:20px}
+.indent-bot2 {margin-bottom:30px}
+.indent-bot3 {margin-bottom:45px}
+.inner {padding:0 55px 0 28px}
+.inner-2 {padding:0 45px 0 42px}
+.img-indent-bot {margin-bottom:25px}
+.img-indent {float:left; margin:0 22px 8px 0}	
+.img-indent2 {float:left; margin:0 30px 0px 0}	
+.img-indent3 {float:left; margin:0 23px 0px 0}	
+.img-indent-r {float:right; margin:0 0px 0px 40px}	
+.prev-indent-bot {margin-bottom:10px}	
+.prev-indent-bot2 {margin-bottom:5px}	
+.buttons a:hover {cursor:pointer}
+.menu li a, .list-1 li a, .list-2 li a, .link, .button, .logo {text-decoration:none}
+/*****header*****/
+header {width:100%;position:relative;z-index:2}
+.row-1 {width:100%;height:71px;background:url(../images/row1-top-tail.gif) left top repeat-x}
+.row-2 {width:100%;min-height:101px;background:url(../images/row2-tail.gif) }
+h1 {padding:15px 0 0 0;position:relative;font-weight:normal;text-transform:uppercase;margin-left:-4px;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif}
+h1 span {display:inline-block;	font-size:28px;	line-height:1.2em;	color:#949494;	letter-spacing:-1px;	padding:29px 0 0 4px}
+.logo {display:inline-block;font-size:60px;line-height:1.2em;;color:#3F3F3F;cursor:text;letter-spacing:-3px}
+/*****content*****/
+#content {width:100%;padding:0;position:relative;z-index:1}
+.gallery {padding:20px 0 26px 20px;background:rgb(235, 232, 232);box-shadow: 0px 5px 8px rgba(0,0,0,0.70);-moz-box-shadow: 0px 5px 8px rgba(0,0,0,0.70);-webkit-box-shadow: 0px 5px 8px rgba(0,0,0,0.70)}
+.padding {padding:30px 0px 38px}
+/* -- gallery  begin --*/
+ div.content {/* The display of content is enabled using jQuery so that the slideshow content won't display unless javascript is enabled. */
+	display: none;width: 620px;height: 403px;margin:  0;padding: 0px;float: left;overflow: hidden}
+ div.content img {position: relative;z-index: 2}
+ div.content a, div.navigation a {text-decoration: none;display:block;position:relative;cursor:pointer}
+ div.content a:focus, div.content a:hover, div.content a:active {text-decoration: underline}
+/* -- gallery end --*/
+h3 {font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;font-size:36px;line-height:1.2em;margin:0 0 22px 0;color:#262626;font-weight:normal;letter-spacing:-2px}
+.border-bot {width:100%;padding-bottom:20px;background:url(../images/pic-1.gif) 0 bottom repeat-x}
+.box {width:100%;background:#fff;box-shadow: 0px 5px 8px rgba(0,0,0,0.70);-moz-box-shadow: 0px 5px 8px rgba(0,0,0,0.70);-webkit-box-shadow: 0px 5px 8px rgba(0,0,0,0.70)}
+.button {display:inline-block;padding:10px 20px 11px;color:#fff;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;font-size:18px;line-height:1.22em;background:url(../images/button-tail.gif) 0 0 repeat-x #000;text-transform:uppercase;letter-spacing:-1px}	
+.button:hover {background:#ff9601}
+/* Contact form */
+#contact-form {display:block}
+#contact-form label {display:block;height:40px;overflow:hidden}
+#contact-form input {float:left;width:406px;font-size:13px;line-height:1.23em;color:#262626;padding:6px 10px;margin:0;font-family:Arial, Helvetica, sans-serif;border:1px solid #d9d9d9;background:#fcfcfc;outline:none}
+#contact-form textarea {float:left;height:192px;overflow:auto;width:776px;font-size:13px;line-height:1.23em;color:#404040;padding:6px 10px;margin:0;font-family:Arial, Helvetica, sans-serif;border:1px solid #d9d9d9;background:#fcfcfc;outline:none}
+.text-form {float:left;display:block;font-size:13px;line-height:1.23em;width:81px;color:#262626;font-family:Arial, Helvetica, sans-serif;padding-top:3px}
+.buttons {padding:18px 30px 0 0; text-align:right}
+.buttons a {margin-left:10px; padding:10px 42px 11px}
+/****footer****/
+figcaption {
+			background-color: rgb(129, 56, 56);
+			color: white;
+			font-style: italic;
+			padding: 2px;
+			text-align: center;
+			}
+figure {
+	margin-left: auto;
+  	margin-right: auto;
+  	width: 25%;
+	border: 1px #cccccc solid;
+	padding: 0px;
+	margin: auto;
+		   }
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+		  }
+.column2{
+			float: left;
+			width: 48%;
+			padding: 5px;
+		  }
+.column3{
+			float: right;
+			width: 30%;
+			padding: 2px;
+		  }
+		  .column4{
+			float: left;
+			width: 48%;
+			padding: 2px;
+		  }
+.row::after {
+			content:"";
+			clear: left;
+			display: block;
+		  }
+/*-----edited header-------*/
+		  .navbar {
+			overflow: hidden;
+			background-color: #333; 
+		  }		  
+		  .navbar a {
+			float: left;
+			font-size: 16px;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		  }		  
+		  .subnav {
+			float: left;
+			overflow: hidden;
+		  }		  
+		  .subnav .subnavbtn {
+			font-size: 16px;  
+			border: none;
+			outline: none;
+			color: white;
+			padding: 14px 16px;
+			background-color: inherit;
+			font-family: inherit;
+			margin: 0;
+		  }
+		  .navbar a:hover, .subnav:hover .subnavbtn {
+			background-color: red;
+		  }		  
+		  .subnav-content {
+			display: none;
+			position: absolute;
+			left: 0;
+			background-color: red;
+			width: 100%;
+			z-index: 1;
+		  }		  
+		  .subnav-content a {
+			float: left;
+			color: white;
+			text-decoration: none;
+		  }
+		  
+		  .subnav-content a:hover {
+			background-color: #eee;
+			color: black;
+		  }		  
+		  .subnav:hover .subnav-content {
+			display: block;
+		  }
+/* logout*/
+		  .navbars a {
+			float: right;
+			font-size: 16px;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		  }		  
+		  .subnavs {
+			float: right;
+			overflow: hidden;
+		  }
+		  .subnav-contents {
+			display: none;
+			position: absolute;
+			right: 0;
+			background-color: red;
+			width: 100%;
+			z-index: 1;
+		  }		  
+		  .subnav-contents a {
+			float: right;
+			color: white;
+			text-decoration: none;
+		  }
+/*flip about*/
+		  .flip-box {
+			background-color: transparent;
+			width: 300px;
+			height: 200px;
+			border: 1px solid #f1f1f1;
+			perspective: 1000px; /* Remove this if you don't want the 3D effect */
+		  }		  
+/* This container is needed to position the front and back side */
+		  .flip-box-inner {
+			position: relative;
+			width: 100%;
+			height: 100%;
+			text-align: center;
+			transition: transform 0.8s;
+			transform-style: preserve-3d;
+		  }		  
+/* Do an horizontal flip when you move the mouse over the flip box container */
+		  .flip-box:hover .flip-box-inner {
+			transform: rotateY(180deg);
+		  }
+/* Position the front and back side */
+		  .flip-box-front, .flip-box-back {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			-webkit-backface-visibility: hidden; 
+			backface-visibility: hidden;
+		  }		  
+/* Style the front side (fallback if image is missing) */
+		  .flip-box-front {
+			background-color: #bbb;
+			color: black;
+		  }		  
+/* Style the back side */
+		  .flip-box-back {
+			background-color: dodgerblue;
+			color: white;
+			transform: rotateY(180deg);
+		  }
+/* price box-------*/
+		  .cont {
+			position: relative;
+			width: 100%;
+		  }
+		  .middl {
+			transition: .5s ease;
+			opacity: 0;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%)
+		  }
+		  .cont:hover .middl {
+			opacity: 0.8;
+		  }
+		  .text {
+			background-color: #f2f7f3;
+			color: rgb(0, 0, 0);
+			font-size: 16px;
+			padding: 16px 32px;
+		  }
