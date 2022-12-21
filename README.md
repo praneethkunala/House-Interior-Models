@@ -1,4 +1,4 @@
-# interior-design
+# House Interior Models
 The core of the project is to provide interior design ideas for people. we provided a
 website called “ House Interior Models ”. Where people can consult online services
 through our website. Here in our website we described of interior designs and
